@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "#nav-top{\r\n    height: 30px;\r\n    border: 1px solid green;\r\n}\r\n#nav-left{\r\n    float: left;\r\n    height: 100%;\r\n    width: 30px;\r\n    border: 1px solid green;\r\n}\r\n#main{\r\n    margin-left: 30px;\r\n}\r\n#nav-footer{\r\n    height: 30px;\r\n    border: 1px solid green;\r\n}"
+module.exports = "\r\n#nav-left{\r\n    float: left;\r\n    height: 100vh;\r\n    width: 30px;\r\n    border: 1px solid green;\r\n}\r\n#nav-right {\r\n    float: right;\r\n    height: 100vh;\r\n    width: calc(100% - 35px);\r\n    border: 1px solid blue;\r\n    display: inline-flex;\r\n    flex-direction: column;\r\n    justify-content: space-between;\r\n}\r\n#nav-top{\r\n    height: 30px;\r\n    border: 1px solid green;\r\n}\r\n#main{\r\n    margin-left: 30px;\r\n}\r\n#nav-footer{\r\n    height: 30px;\r\n    border: 1px solid green;\r\n}"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = "#nav-top{\r\n    height: 30px;\r\n    border: 1px solid green;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<header id=\"nav-top\">\n    Header\n</header>\n\n<nav id=\"nav-left\">nav</nav>\n\n\n  <main id=\"main\" style=\"text-align:center\">\n    <h1>\n      Welcome to {{ title }}!\n    </h1>\n    <!-- <img width=\"300\" alt=\"Angular Logo\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==\"> -->\n\n    <h1>\n      Welcome to {{ title }}!\n    </h1>\n\n    <h1>\n      Welcome to {{ title }}!\n    </h1>\n  </main>\n\n\n<footer id=\"nav-footer\">\n    Footer\n</footer>"
+module.exports = "<!-- 左边导航（小内容） -->\n<nav id=\"nav-left\">nav</nav>\n<!-- 右边内容（小导航） -->\n<nav id=\"nav-right\">\n    <header id=\"nav-top\">\n        Header\n    </header>\n    <main id=\"main\" style=\"text-align:center\">\n        <h1>\n          Welcome to {{ title }}!\n        </h1>\n        <!-- <img width=\"300\" alt=\"Angular Logo\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==\"> -->\n\n        <h1>\n          Welcome to {{ title }}!\n        </h1>\n\n        <h1>\n          Welcome to {{ title }}!\n        </h1>\n    </main>\n    <footer id=\"nav-footer\">\n        Footer\n    </footer>\n</nav>"
 
 /***/ }),
 
